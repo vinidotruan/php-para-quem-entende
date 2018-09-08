@@ -1,11 +1,10 @@
 <?php
 
-require "../../../app/functions/custom.php";
+require "../../../bootstrap.php";
 
-dd($_POST);
-
-/*
 $validate = validate([
     'name' => 's',
-    'email' => 'e'
-]);*/
+    'email' => 'e',
+]);
+
+dd($validate->email);
