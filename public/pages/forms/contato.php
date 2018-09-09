@@ -3,9 +3,8 @@
 require "../../../bootstrap.php";
 
 if(isEmpty()) {
-
-    dd('Tem alguma coisa vazia champs');
-
+    flash('message', 'Preencha todos os campos');
+    header("location:/?page=contato");
 }
 
 
