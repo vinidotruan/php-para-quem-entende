@@ -1,4 +1,4 @@
-<form action="/forms/create_user" method="POST">
+<form action="/pages/forms/create_user.php" method="POST">
     <legend>Cadastro de usuário</legend>
 
     <div class="form-group">
