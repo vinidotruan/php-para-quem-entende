@@ -32,6 +32,19 @@ function update()
 
 }
 
+function all($table)
+{
+    $pdo = connect();
+
+    $query = "select * from {$table}";
+    $list = $pdo->query($query);
+
+    $list->execute();
+
+    return $list->fetchAll();
+
+}
+
 function find()
 {
 

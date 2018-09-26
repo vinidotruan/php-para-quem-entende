@@ -1,3 +1,5 @@
+<?=get('message')?>
+
 <form action="/pages/forms/create_user.php" method="POST">
     <legend>Cadastro de usuário</legend>
 
